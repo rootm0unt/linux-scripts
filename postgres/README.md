@@ -111,7 +111,7 @@ Options:
 --pg-user <username>       PostgreSQL OS user
                            Default: postgres
 
---backup-dir <directory>  Backup destination
+--backup-dir <directory>   Backup destination
                            Default: /opt/psql-backup
 
 --gotify                   Enable Gotify notifications
