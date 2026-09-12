@@ -1,0 +1,9 @@
+# /etc/systemd/system/psql-backup.service 
+
+[Unit]
+Description=PostgreSQL physical backup
+After=postgresql.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/psql-backup
