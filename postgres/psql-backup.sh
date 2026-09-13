@@ -86,12 +86,6 @@ cleanup() {
         rm -f -- "$TEMP_BACKUP_FILE"
     fi
 
-    if [[ "$exit_code" -eq 0 ]]; then
-        log "Cleanup complete"
-    else
-        log "Cleanup complete. Backup task interrupted."
-    fi
-
     exit "$exit_code"
 }
 
